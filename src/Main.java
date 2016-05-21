@@ -18,7 +18,7 @@ import java.util.GregorianCalendar;
 /**
  * @brief	Main entry point for the program.
  * 
- * This program calculates the upcomming options expiration dates.
+ * This program calculates the upcoming options expiration dates.
  * It also displays how many calendar days are left until expiration for each date.
  * In addition, it distinguishes between normal expiration dates and weeklies.
  * 
@@ -35,7 +35,7 @@ public class Main
 	 * @brief	Calculate the number of days until the next Friday, given a week day
 	 * 
 	 * @param	currentWeekDay - The current day of the week (Sunday = 1, Monday = 2, etc.)
-	 * @return	int - The number of days until the next friday
+	 * @return	int - The number of days until the next Friday
 	 * @throws	Exception - If the currentWeekDay is invalid, this method will throw
 	 */
 	private static int calculateDaysUntilNextFriday(int currentWeekDay) throws Exception
@@ -97,8 +97,8 @@ public class Main
 	 */
 	private static int calculateDayDifference(Calendar today, Calendar cal)
 	{
-		long deltaMS = cal.getTimeInMillis() - today.getTimeInMillis();
-		int deltaDays = (int) ( deltaMS / MS_IN_A_DAY);
+		final long deltaMS = cal.getTimeInMillis() - today.getTimeInMillis();
+		final int deltaDays = (int) ( deltaMS / MS_IN_A_DAY);
 		return deltaDays;
 	}
 	
@@ -126,9 +126,9 @@ public class Main
 	 */
 	private static void printExpiration(Calendar today, Calendar cal)
 	{
-		int year = cal.get(Calendar.YEAR);
-		int month = cal.get(Calendar.MONTH) + 1;
-		int day = cal.get(Calendar.DAY_OF_MONTH);
+		final int year = cal.get(Calendar.YEAR);
+		final int month = cal.get(Calendar.MONTH) + 1;
+		final int day = cal.get(Calendar.DAY_OF_MONTH);
 		
 		StringBuffer text = new StringBuffer(50);
 		text.append(year);
