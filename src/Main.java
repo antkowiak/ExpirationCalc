@@ -1,4 +1,4 @@
-/*
+/**
  * Copyright (c) 2016 Ryan Antkowiak (antkowiak@gmail.com).
  * All rights reserved.
  * It is provided AS-IS, WITHOUT ANY WARRANTY either expressed or implied.
@@ -15,7 +15,7 @@ package com.ryanantkowiak.ExpirationCalc;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
-/*
+/**
  * @brief	Main entry point for the program.
  * 
  * This program calculates the upcomming options expiration dates.
