@@ -1,12 +1,11 @@
 /**
- * Copyright (c) 2016 Ryan Antkowiak (antkowiak@gmail.com).
+ * Copyright (c) 2016 Ryan Antkowiak .
  * All rights reserved.
  * It is provided AS-IS, WITHOUT ANY WARRANTY either expressed or implied.
  * You may study, use, and modify it for any non-commercial purpose.
  * You may distribute it non-commercially as long as you retain this notice.
- * For a commercial use license, contact antkowiak@gmail.com.
  * 
- * @author	Ryan Antkowiak (antkowiak@gmail.com)
+ * @author	Ryan Antkowiak 
  * 
  */
 
@@ -22,7 +21,7 @@ import java.util.GregorianCalendar;
  * It also displays how many calendar days are left until expiration for each date.
  * In addition, it distinguishes between normal expiration dates and weeklies.
  * 
- * @author	Ryan Antkowiak (antkowiak@gmail.com)
+ * @author	Ryan Antkowiak 
  */
 public class Main
 {
